@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #256;
+    padding: 10px 0;
+    color: whitesmoke;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: #256;
+    color: whitesmoke;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a,
+.articles article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0 ,0.1);
+}
+
+#sports .articles article a {
+    background-color: #006923;
+}
+
+#economy {
+    background-color: #F1EFB7;
+}
+
+#economy .articles article a {
+    background-color: #F19900;
+}
+
+body > header h1,
+body h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#tecnology {
+    background-color: #96BEFA;
+}
+
+#tecnology .articles article a {
+    background-color: blue;
+}
+
+#enterteiment {
+    background-color: #E3B4FA;
+}
+
+#enterteiment .articles article a {
+    background-color: #AD2F9A;
+}
+
+body > header .borda {
+    border-right: 2px solid gray;
+    padding-right: 28px;
+
+}
+
+body > header a:hover {
+    color: gray;
+    transition: 0.2s ease;
+}
+
